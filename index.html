@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Todo</title>
+<meta name="theme-color" content="#1f6feb">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Todo</h1>
+  <form id="add">
+    <input id="text" type="text" placeholder="New task" autocomplete="off" required>
+    <button type="submit">Add</button>
+  </form>
+  <ul id="list"></ul>
+  <footer>
+    <span id="count"></span>
+    <button id="clear" type="button">Clear done</button>
+  </footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
